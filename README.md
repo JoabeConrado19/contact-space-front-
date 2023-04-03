@@ -1,46 +1,36 @@
-# Getting Started with Create React App
+# Documentação do projeto React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este documento fornece as informações necessárias para configurar e executar o projeto React.
 
-## Available Scripts
+## Requisitos
 
-In the project directory, you can run:
+Antes de começar, você deve garantir que seu computador atenda aos seguintes requisitos:
 
-### `npm start`
+- Node.js instalado em sua máquina (versão recomendada: 12.x ou superior)
+- Yarn instalado em sua máquina (versão recomendada: 1.x ou superior)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Instalação
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. Faça o clone do repositório do projeto: git clone https://github.com/seu-usuario/nome-do-projeto.git
 
-### `npm test`
+2. Abra o terminal e navegue até o diretório raiz do projeto: cd nome-do-projeto
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+3. Instale as dependências do projeto usando o Yarn: yarn
 
-### `npm run build`
+4. Após a instalação das dependências, você pode executar o projeto usando o comando:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+yarn start
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+5. O projeto deve ser aberto automaticamente em seu navegador padrão. Caso contrário, você pode acessá-lo manualmente em `http://localhost:3000`.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Configurações adicionais
 
-### `npm run eject`
+- O arquivo `package.json` contém informações sobre as dependências do projeto e scripts úteis. Você pode editá-lo para adicionar ou remover dependências ou scripts conforme necessário.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- O arquivo `.env` contém variáveis de ambiente para configurações adicionais do projeto. Você pode criar um arquivo `.env.local` para adicionar variáveis de ambiente específicas para seu ambiente de desenvolvimento.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Considerações finais
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Este é um guia básico para começar a trabalhar com o projeto React. Para mais informações, consulte a documentação oficial do React em https://reactjs.org/docs/. Lembre-se também de manter suas dependências atualizadas e testar seu projeto regularmente para evitar problemas de compatibilidade.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Você pode salvar esse código em um arquivo com o nome README.md na raiz do seu projeto. Quando o arquivo for adicionado ao repositório e o GitHub detectar que há um arquivo README.md, ele será exibido automaticamente na página inicial do repositório como uma documentação.
